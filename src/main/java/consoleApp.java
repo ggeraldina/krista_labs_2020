@@ -1,23 +1,19 @@
-import java.io.*;
-import java.net.*;
-import java.util.*;
-import static java.lang.System.out;
+import io.undertow.Undertow;
+import io.undertow.server.HttpHandler;
+import io.undertow.server.HttpServerExchange;
+import io.undertow.util.Headers;
 
-public class consoleApp  {
-
-    public static void main(String args[]) throws SocketException {
-        Enumeration<NetworkInterface> nets = NetworkInterface.getNetworkInterfaces();
-        for (NetworkInterface netint : Collections.list(nets))
-            displayInterfaceInformation(netint);
-    }
-
-    static void displayInterfaceInformation(NetworkInterface netint) throws SocketException {
-        out.printf("Display name: %s\n", netint.getDisplayName());
-        out.printf("Name: %s\n", netint.getName());
-        Enumeration<InetAddress> inetAddresses = netint.getInetAddresses();
-        for (InetAddress inetAddress : Collections.list(inetAddresses)) {
-            out.printf("InetAddress: %s\n", inetAddress);
-        }
-        out.printf("\n");
+public class consoleApp {
+    public static void main(final String[] args) {
+        Undertow server = Undertow.builder()
+                .addHttpListener(8000, "localhost")
+                .setHandler(new HttpHandler() {
+                    @Override
+                    public void handleRequest(final HttpServerExchange exchange) throws Exception {
+                        exchange.getResponseHeaders().put(Headers.CONTENT_TYPE, "text/plain");
+                        exchange.getResponseSender().send("Grushevskaya Darya");
+                    }
+                }).build();
+        server.start();
     }
 }
