@@ -3,7 +3,7 @@ import io.undertow.server.HttpHandler;
 import io.undertow.server.HttpServerExchange;
 import io.undertow.util.Headers;
 
-public class consoleApp {
+public class myApp {
     public static void main(final String[] args) {
         Undertow server = Undertow.builder()
                 .addHttpListener(8000, "localhost")
@@ -15,5 +15,6 @@ public class consoleApp {
                     }
                 }).build();
         server.start();
+
     }
 }
