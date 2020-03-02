@@ -11,11 +11,20 @@ public class consoleApp  {
     }
     static void displayInterfaceInformation(NetworkInterface netint) throws SocketException {
         out.printf("Display name: %s\n", netint.getDisplayName());
-        out.printf("Display name: %s\n", netint.getDisplayName());
-        out.printf("Name: %s\n", netint.getName());
+
+        byte[] hardwareAddress = netint.getHardwareAddress();
+        if (hardwareAddress != null) {
+            out.print("MAC: ");
+            for (byte b : hardwareAddress) {
+                out.printf("%02X ", b);
+            }
+            out.println();
+
+        }
+
         Enumeration<InetAddress> inetAddresses = netint.getInetAddresses();
         for (InetAddress inetAddress : Collections.list(inetAddresses)) {
-            out.printf("InetAddress: %s\n", inetAddress);
+            out.printf("IP: %s\n", inetAddress);
         }
         out.printf("\n");
     }
