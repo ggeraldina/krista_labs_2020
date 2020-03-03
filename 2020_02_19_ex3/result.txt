@@ -1,1 +1,2 @@
-Network map: emptyNetwork map: emptyNetwork map: empty
+Network map:
+[192.168.0.106 - Grushevskaya Darya]

@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Client {
     public static void main(String[] argv) throws IOException {
-        String networkPrefix = "192.168.175.";
+        String networkPrefix = "192.168.0.";
         ArrayList<String> networkElements = new ArrayList<>();
 
         OkHttpClient httpClient = new OkHttpClient();
@@ -32,7 +32,7 @@ public class Client {
             }
         }
 
-        FileOutputStream fileOutputStream = new FileOutputStream("result.txt", true);
+        FileOutputStream fileOutputStream = new FileOutputStream("result.txt", false);
 
         String result = "Network map:";
         if (!networkElements.isEmpty()) {

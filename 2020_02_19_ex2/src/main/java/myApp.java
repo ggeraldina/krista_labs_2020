@@ -6,7 +6,7 @@ import io.undertow.util.Headers;
 public class myApp {
     public static void main(final String[] args) {
         Undertow server = Undertow.builder()
-                .addHttpListener(8000, "localhost")
+                .addHttpListener(8000, "0.0.0.0")
                 .setHandler(new HttpHandler() {
                     @Override
                     public void handleRequest(final HttpServerExchange exchange) throws Exception {
