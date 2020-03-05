@@ -1,0 +1,2 @@
+Network map:
+[192.168.52.16 - Grushevskaya :)]
