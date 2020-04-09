@@ -1,0 +1,105 @@
+<Library>
+    <sectionA>
+        <sectionA>
+            <authors>
+                <authors>
+                    <firstName>Николай</firstName>
+                    <lastName>Гоголь</lastName>
+                </authors>
+            </authors>
+            <publishingCompany>
+                <name>Супер-пупер-мега-вау издательство</name>
+                <city>Ярославль</city>
+            </publishingCompany>
+            <title>Мертвые души</title>
+        </sectionA>
+        <sectionA>
+            <authors>
+                <authors>
+                    <firstName>Николай</firstName>
+                    <lastName>Гоголь</lastName>
+                </authors>
+            </authors>
+            <publishingCompany>
+                <name>Супер-пупер-мега-вау издательство</name>
+                <city>Ярославль</city>
+            </publishingCompany>
+            <title>Вий</title>
+        </sectionA>
+        <sectionA>
+            <authors>
+                <authors>
+                    <firstName>Николай</firstName>
+                    <lastName>Гоголь</lastName>
+                </authors>
+            </authors>
+            <publishingCompany>
+                <name>Супер-пупер-мега-вау издательство</name>
+                <city>Ярославль</city>
+            </publishingCompany>
+            <title>Ревизор</title>
+        </sectionA>
+        <sectionA>
+            <authors>
+                <authors>
+                    <firstName>Лев</firstName>
+                    <lastName>Толстой</lastName>
+                </authors>
+            </authors>
+            <publishingCompany>
+                <name>Супер-пупер-мега-вау издательство</name>
+                <city>Ярославль</city>
+            </publishingCompany>
+            <title>Война и мир</title>
+        </sectionA>
+        <sectionA>
+            <authors>
+                <authors>
+                    <firstName>Лев</firstName>
+                    <lastName>Толстой</lastName>
+                </authors>
+            </authors>
+            <publishingCompany>
+                <name>Супер-пупер-мега-вау издательство</name>
+                <city>Ярославль</city>
+            </publishingCompany>
+            <title>Анна Каренина</title>
+        </sectionA>
+    </sectionA>
+    <sectionB>
+        <sectionB>
+            <authors>
+                <authors>
+                    <firstName>Илья</firstName>
+                    <lastName>Ильф</lastName>
+                </authors>
+                <authors>
+                    <firstName>Евгений</firstName>
+                    <lastName>Петров</lastName>
+                </authors>
+            </authors>
+            <publishingCompany>
+                <name>Супер-пупер-мега-вау издательство</name>
+                <city>Ярославль</city>
+            </publishingCompany>
+            <title>Золотой теленок</title>
+        </sectionB>
+        <sectionB>
+            <authors>
+                <authors>
+                    <firstName>Илья</firstName>
+                    <lastName>Ильф</lastName>
+                </authors>
+                <authors>
+                    <firstName>Евгений</firstName>
+                    <lastName>Петров</lastName>
+                </authors>
+            </authors>
+            <publishingCompany>
+                <name>Супер-пупер-мега-вау издательство</name>
+                <city>Ярославль</city>
+            </publishingCompany>
+            <title>Двенадцать стульев</title>
+        </sectionB>
+    </sectionB>
+</Library>

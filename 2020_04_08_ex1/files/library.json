@@ -1,0 +1,105 @@
+{
+  "sectionA": [
+    {
+      "authors": [
+        {
+          "firstName": "Николай",
+          "lastName": "Гоголь"
+        }
+      ],
+      "publishingCompany": {
+        "name": "Супер-пупер-мега-вау издательство",
+        "city": "Ярославль"
+      },
+      "title": "Мертвые души"
+    },
+    {
+      "authors": [
+        {
+          "firstName": "Николай",
+          "lastName": "Гоголь"
+        }
+      ],
+      "publishingCompany": {
+        "name": "Супер-пупер-мега-вау издательство",
+        "city": "Ярославль"
+      },
+      "title": "Вий"
+    },
+    {
+      "authors": [
+        {
+          "firstName": "Николай",
+          "lastName": "Гоголь"
+        }
+      ],
+      "publishingCompany": {
+        "name": "Супер-пупер-мега-вау издательство",
+        "city": "Ярославль"
+      },
+      "title": "Ревизор"
+    },
+    {
+      "authors": [
+        {
+          "firstName": "Лев",
+          "lastName": "Толстой"
+        }
+      ],
+      "publishingCompany": {
+        "name": "Супер-пупер-мега-вау издательство",
+        "city": "Ярославль"
+      },
+      "title": "Война и мир"
+    },
+    {
+      "authors": [
+        {
+          "firstName": "Лев",
+          "lastName": "Толстой"
+        }
+      ],
+      "publishingCompany": {
+        "name": "Супер-пупер-мега-вау издательство",
+        "city": "Ярославль"
+      },
+      "title": "Анна Каренина"
+    }
+  ],
+  "sectionB": [
+    {
+      "authors": [
+        {
+          "firstName": "Илья",
+          "lastName": "Ильф"
+        },
+        {
+          "firstName": "Евгений",
+          "lastName": "Петров"
+        }
+      ],
+      "publishingCompany": {
+        "name": "Супер-пупер-мега-вау издательство",
+        "city": "Ярославль"
+      },
+      "title": "Золотой теленок"
+    },
+    {
+      "authors": [
+        {
+          "firstName": "Илья",
+          "lastName": "Ильф"
+        },
+        {
+          "firstName": "Евгений",
+          "lastName": "Петров"
+        }
+      ],
+      "publishingCompany": {
+        "name": "Супер-пупер-мега-вау издательство",
+        "city": "Ярославль"
+      },
+      "title": "Двенадцать стульев"
+    }
+  ]
+}
