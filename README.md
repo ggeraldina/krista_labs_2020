@@ -6,7 +6,9 @@
 
 ### Общая информация
 Почта для вопросов: ntp-stud@krista.ru
+
 Репозитории: http://hg-stud.krista.ru/2020_distributed
+
 Обучающие материалы по системе контроля версий Mercurial https://habr.com/ru/post/108658/
 
 ### Вводное занятие
